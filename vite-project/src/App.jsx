@@ -1,9 +1,10 @@
 import "./App.css";
+import ErrorExample from "./01-useState/01-error-example";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <ErrorExample />
     </>
   );
 }
