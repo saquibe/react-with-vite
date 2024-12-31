@@ -1,5 +1,6 @@
-import UseStateGotcha from "./01-useState/05-useState-gotcha";
 import "./App.css";
+import UseEffectBasics from "./02-useEffect/01-useEffect-basics";
+// import UseStateGotcha from "./01-useState/05-useState-gotcha";
 // import ErrorExample from "./01-useState/01-error-example";
 // import UseStateBasics from "./01-useState/02-useState-basics";
 // import UseStateArray from "./01-useState/03-useState-array";
@@ -12,7 +13,8 @@ function App() {
       {/* <UseStateBasics /> */}
       {/* <UseStateArray /> */}
       {/* <UseStateObject /> */}
-      <UseStateGotcha />
+      {/* <UseStateGotcha /> */}
+      <UseEffectBasics />
     </div>
   );
 }
