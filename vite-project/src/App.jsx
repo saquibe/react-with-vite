@@ -1,5 +1,6 @@
-import MultipleEffect from "./02-useEffect/02-multipleEffect";
+import FetchData from "./02-useEffect/03-fetch-data";
 import "./App.css";
+// import MultipleEffect from "./02-useEffect/02-multipleEffect";
 // import UseEffectBasics from "./02-useEffect/01-useEffect-basics";
 // import UseStateGotcha from "./01-useState/05-useState-gotcha";
 // import ErrorExample from "./01-useState/01-error-example";
@@ -16,7 +17,8 @@ function App() {
       {/* <UseStateObject /> */}
       {/* <UseStateGotcha /> */}
       {/* <UseEffectBasics /> */}
-      <MultipleEffect />
+      {/* <MultipleEffect /> */}
+      <FetchData />
     </div>
   );
 }
