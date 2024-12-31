@@ -11,6 +11,11 @@ function MultipleReturnFetchData() {
     try {
       const getUser = async () => {
         const response = await fetch(url);
+        if (!response.ok) {
+          setIsError(true);
+          setIsLoading(false);
+          throw new Error("Failed to fetch data");
+        }
         const user = await response.json();
         setUser(user);
         setIsLoading(false);
