@@ -1,5 +1,6 @@
-import MultipleReturnsBasics from "./02-useEffect/04-conditional-rendering";
+import MultipleReturnFetchData from "./02-useEffect/05-multiple-return-fetch-data";
 import "./App.css";
+// import MultipleReturnsBasics from "./02-useEffect/04-conditional-rendering";
 // import FetchData from "./02-useEffect/03-fetch-data";
 // import MultipleEffect from "./02-useEffect/02-multipleEffect";
 // import UseEffectBasics from "./02-useEffect/01-useEffect-basics";
@@ -20,7 +21,8 @@ function App() {
       {/* <UseEffectBasics /> */}
       {/* <MultipleEffect /> */}
       {/* <FetchData /> */}
-      <MultipleReturnsBasics />
+      {/* <MultipleReturnsBasics /> */}
+      <MultipleReturnFetchData />
     </div>
   );
 }
