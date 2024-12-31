@@ -34,17 +34,19 @@ function MultipleReturnFetchData() {
   if (isError) {
     return <h2>Error...</h2>;
   }
+
+  const { name, login, avatar_url, bio } = user;
   return (
     <div>
       <h2>fetch data</h2>
       <img
-        src={user.avatar_url}
-        alt={user.name}
+        src={avatar_url}
+        alt={name}
         style={{ width: "150px", borderRadius: "25px" }}
       />
-      <h2>{user.name}</h2>
-      <h4>{user.login}</h4>
-      <p>{user.bio}</p>
+      <h2>{name}</h2>
+      <h4>{login}</h4>
+      <p>{bio}</p>
     </div>
   );
 }
