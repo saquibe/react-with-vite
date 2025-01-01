@@ -1,5 +1,7 @@
-import CleanUpFunction from "./02-useEffect/09-cleanup-function";
+import Navbar from "./03-project-structure/Navbar";
+import { About, Home } from "./03-project-structure/Pages";
 import "./App.css";
+// import CleanUpFunction from "./02-useEffect/09-cleanup-function";
 // import UserChllenge from "./02-useEffect/08-user-challenge";
 // import ToggleChallenge from "./02-useEffect/07-toggle-challenge";
 // import ShortCircuitOverview from "./02-useEffect/06-short-circuit";
@@ -30,7 +32,11 @@ function App() {
       {/* <ShortCircuitOverview /> */}
       {/* <ToggleChallenge /> */}
       {/* <UserChllenge />   */}
-      <CleanUpFunction />
+      {/* <CleanUpFunction />*/}
+
+      <Navbar />
+      <Home />
+      <About />
     </div>
   );
 }
