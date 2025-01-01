@@ -1,5 +1,6 @@
-import UserChllenge from "./02-useEffect/08-user-challenge";
+import CleanUpFunction from "./02-useEffect/09-cleanup-function";
 import "./App.css";
+// import UserChllenge from "./02-useEffect/08-user-challenge";
 // import ToggleChallenge from "./02-useEffect/07-toggle-challenge";
 // import ShortCircuitOverview from "./02-useEffect/06-short-circuit";
 // import MultipleReturnFetchData from "./02-useEffect/05-multiple-return-fetch-data";
@@ -28,7 +29,8 @@ function App() {
       {/* <MultipleReturnFetchData /> */}
       {/* <ShortCircuitOverview /> */}
       {/* <ToggleChallenge /> */}
-      <UserChllenge />  
+      {/* <UserChllenge />   */}
+      <CleanUpFunction />
     </div>
   );
 }
