@@ -1,5 +1,6 @@
-import MultipleReturnFetchData from "./02-useEffect/05-multiple-return-fetch-data";
+import ShortCircuitOverview from "./02-useEffect/06-short-circuit";
 import "./App.css";
+// import MultipleReturnFetchData from "./02-useEffect/05-multiple-return-fetch-data";
 // import MultipleReturnsBasics from "./02-useEffect/04-conditional-rendering";
 // import FetchData from "./02-useEffect/03-fetch-data";
 // import MultipleEffect from "./02-useEffect/02-multipleEffect";
@@ -22,7 +23,8 @@ function App() {
       {/* <MultipleEffect /> */}
       {/* <FetchData /> */}
       {/* <MultipleReturnsBasics /> */}
-      <MultipleReturnFetchData />
+      {/* <MultipleReturnFetchData /> */}
+      <ShortCircuitOverview />
     </div>
   );
 }
