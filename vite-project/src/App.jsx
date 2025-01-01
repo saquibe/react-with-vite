@@ -1,3 +1,4 @@
+import Example from "./03-project-structure/Example";
 import Navbar from "./03-project-structure/Navbar";
 import { About, Home } from "./03-project-structure/Pages";
 import "./App.css";
@@ -37,6 +38,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Example />
     </div>
   );
 }
