@@ -1,5 +1,6 @@
-import ShortCircuitOverview from "./02-useEffect/06-short-circuit";
+import ToggleChallenge from "./02-useEffect/07-toggle-challenge";
 import "./App.css";
+// import ShortCircuitOverview from "./02-useEffect/06-short-circuit";
 // import MultipleReturnFetchData from "./02-useEffect/05-multiple-return-fetch-data";
 // import MultipleReturnsBasics from "./02-useEffect/04-conditional-rendering";
 // import FetchData from "./02-useEffect/03-fetch-data";
@@ -24,7 +25,8 @@ function App() {
       {/* <FetchData /> */}
       {/* <MultipleReturnsBasics /> */}
       {/* <MultipleReturnFetchData /> */}
-      <ShortCircuitOverview />
+      {/* <ShortCircuitOverview /> */}
+      <ToggleChallenge />
     </div>
   );
 }
