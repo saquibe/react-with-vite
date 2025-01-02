@@ -1,5 +1,7 @@
-import UserChallenge from "./05-forms/02-user-challenge";
+import OtherInputs from "./05-forms/04-other-inputs";
 import "./App.css";
+// import MultipleInputs from "./05-forms/03-multiple-inputs";
+// import UserChallenge from "./05-forms/02-user-challenge";
 // import ControlledInputs from "./05-forms/01-controlled-inputs";
 // import List from "./04-leverage-javascript/List";
 // import Example from "./03-project-structure/Example";
@@ -48,7 +50,9 @@ function App() {
       <List /> */}
 
       {/* <ControlledInputs /> */}
-      <UserChallenge />
+      {/* <UserChallenge /> */}
+      {/* <MultipleInputs /> */}
+      <OtherInputs />
     </div>
   );
 }
