@@ -1,5 +1,6 @@
-import UncontrolledInputs from "./05-forms/05-form-data";
+import UseRefBasics from "./06-useRef/01-useRef-basics";
 import "./App.css";
+// import UncontrolledInputs from "./05-forms/05-form-data";
 // import OtherInputs from "./05-forms/04-other-inputs";
 // import MultipleInputs from "./05-forms/03-multiple-inputs";
 // import UserChallenge from "./05-forms/02-user-challenge";
@@ -54,7 +55,9 @@ function App() {
       {/* <UserChallenge /> */}
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
-      <UncontrolledInputs />
+      {/* <UncontrolledInputs /> */}
+
+      <UseRefBasics />
     </div>
   );
 }
