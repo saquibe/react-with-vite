@@ -1,5 +1,6 @@
-import List from "./04-leverage-javascript/List";
+import ControlledInputs from "./05-forms/01-controlled-inputs";
 import "./App.css";
+// import List from "./04-leverage-javascript/List";
 // import Example from "./03-project-structure/Example";
 // import Navbar from "./03-project-structure/Navbar";
 // import { About, Home } from "./03-project-structure/Pages";
@@ -42,8 +43,10 @@ function App() {
       <About />
       <Example /> */}
 
-      <h2>Leverage Javascript</h2>
-      <List />
+      {/* <h2>Leverage Javascript</h2>
+      <List /> */}
+
+      <ControlledInputs />
     </div>
   );
 }
