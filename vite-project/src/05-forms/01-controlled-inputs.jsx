@@ -1,20 +1,45 @@
-import React from "react";
+import { useState } from "react";
 
 function ControlledInputs() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  // const handleNameChange = (e) => {
+  //   // console.log(e.target.value);
+  //   // console.log(e.target.name);
+  //   setName(e.target.value);
+  // };
+
+  // const handleEmailChange = (e) => {
+  //   setEmail(e.target.value);
+  // };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(name, email);
+  };
   return (
-    <form className="form">
+    <form className="form" onSubmit={handleSubmit}>
       <h4>Controlled Input</h4>
       <div className="form-row">
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" className="form-input" />
+        <input
+          type="text"
+          id="name"
+          className="form-input"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
       </div>
       <div className="form-row">
         <label htmlFor="email">Email:</label>
-        <input type="email" id="email" className="form-input" />
-      </div>
-      <div className="form-row">
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" className="form-input" />
+        <input
+          type="email"
+          id="email"
+          className="form-input"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
       </div>
       <button type="submit" className="btn btn-block">
         Submit
