@@ -1,7 +1,9 @@
-import Example from "./03-project-structure/Example";
-import Navbar from "./03-project-structure/Navbar";
-import { About, Home } from "./03-project-structure/Pages";
+import List from "./04-leverage-javascript/List";
 import "./App.css";
+// import Example from "./03-project-structure/Example";
+// import Navbar from "./03-project-structure/Navbar";
+// import { About, Home } from "./03-project-structure/Pages";
+
 // import CleanUpFunction from "./02-useEffect/09-cleanup-function";
 // import UserChllenge from "./02-useEffect/08-user-challenge";
 // import ToggleChallenge from "./02-useEffect/07-toggle-challenge";
@@ -35,10 +37,13 @@ function App() {
       {/* <UserChllenge />   */}
       {/* <CleanUpFunction />*/}
 
-      <Navbar />
+      {/* <Navbar />
       <Home />
       <About />
-      <Example />
+      <Example /> */}
+
+      <h2>Leverage Javascript</h2>
+      <List />
     </div>
   );
 }
