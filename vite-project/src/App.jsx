@@ -1,5 +1,6 @@
-import OtherInputs from "./05-forms/04-other-inputs";
+import UncontrolledInputs from "./05-forms/05-form-data";
 import "./App.css";
+// import OtherInputs from "./05-forms/04-other-inputs";
 // import MultipleInputs from "./05-forms/03-multiple-inputs";
 // import UserChallenge from "./05-forms/02-user-challenge";
 // import ControlledInputs from "./05-forms/01-controlled-inputs";
@@ -52,7 +53,8 @@ function App() {
       {/* <ControlledInputs /> */}
       {/* <UserChallenge /> */}
       {/* <MultipleInputs /> */}
-      <OtherInputs />
+      {/* <OtherInputs /> */}
+      <UncontrolledInputs />
     </div>
   );
 }
