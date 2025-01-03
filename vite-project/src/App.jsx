@@ -1,5 +1,6 @@
-import UseRefBasics from "./06-useRef/01-useRef-basics";
+import ToggleExample from "./07-customHooks/01-toggle";
 import "./App.css";
+// import UseRefBasics from "./06-useRef/01-useRef-basics";
 // import UncontrolledInputs from "./05-forms/05-form-data";
 // import OtherInputs from "./05-forms/04-other-inputs";
 // import MultipleInputs from "./05-forms/03-multiple-inputs";
@@ -57,7 +58,9 @@ function App() {
       {/* <OtherInputs /> */}
       {/* <UncontrolledInputs /> */}
 
-      <UseRefBasics />
+      {/* <UseRefBasics /> */}
+
+      <ToggleExample />
     </div>
   );
 }
