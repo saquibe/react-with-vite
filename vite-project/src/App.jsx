@@ -1,5 +1,6 @@
-import ToggleExample from "./07-customHooks/01-toggle";
+import FetchData from "./07-customHooks/02-fetch-data";
 import "./App.css";
+// import ToggleExample from "./07-customHooks/01-toggle";
 // import UseRefBasics from "./06-useRef/01-useRef-basics";
 // import UncontrolledInputs from "./05-forms/05-form-data";
 // import OtherInputs from "./05-forms/04-other-inputs";
@@ -60,7 +61,8 @@ function App() {
 
       {/* <UseRefBasics /> */}
 
-      <ToggleExample />
+      {/* <ToggleExample /> */}
+      <FetchData />
     </div>
   );
 }
