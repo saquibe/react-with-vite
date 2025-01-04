@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { createContext, useState } from "react";
 import NavLinks from "./NavLinks";
+
+export const NavbarContext = createContext();
 
 const Navbar = () => {
   const [user, setUser] = useState({
@@ -10,12 +12,12 @@ const Navbar = () => {
     setUser(null);
   };
   return (
-    <div>
+    <NavbarContext.Provider value={{ user, logout }}>
       <nav className="navbar">
         <h5>CONTEXT API</h5>
-        <NavLinks user={user} logout={logout} />
+        <NavLinks />
       </nav>
-    </div>
+    </NavbarContext.Provider>
   );
 };
 
