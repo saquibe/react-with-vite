@@ -7,19 +7,25 @@ const defaultState = {
   isLoading: false,
 };
 
+const CLEAR_LIST = "CLEAR_LIST";
+const REMOVE_ITEM = "REMOVE_ITEM";
+const RESET_LIST = "RESET_LIST";
+
 const reducer = (state, action) => {
-  if (action.type === "CLEAR_LIST") {
+  if (action.type === CLEAR_LIST) {
     return { ...state, people: [] };
   }
-  if (action.type === "RESET_LIST") {
+  if (action.type === RESET_LIST) {
     return { ...state, people: data };
   }
-  if (action.type === "REMOVE_ITEM") {
+  if (action.type === REMOVE_ITEM) {
     const newPeople = state.people.filter(
       (person) => person.id !== action.payload
     );
     return { ...state, people: newPeople };
   }
+  // return state;
+  throw new Error(`no matching ${action.type} action type`);
 };
 
 const ReducerBasics = () => {
@@ -28,18 +34,21 @@ const ReducerBasics = () => {
   // const [people, setPeople] = useState(data);
 
   const removeItem = (id) => {
-    dispatch({ type: "REMOVE_ITEM", payload: id });
+    dispatch({ type: REMOVE_ITEM, payload: id });
+
+    // dispatch({ type: "do something" });
+
     // let newPeople = people.filter((person) => person.id !== id);
     // setPeople(newPeople);
   };
 
   const clearList = () => {
-    dispatch({ type: "CLEAR_LIST" });
+    dispatch({ type: CLEAR_LIST });
     // setPeople([]);
   };
 
   const resetList = () => {
-    dispatch({ type: "RESET_LIST" });
+    dispatch({ type: RESET_LIST });
     // setPeople(data);
   };
   console.log(state);
