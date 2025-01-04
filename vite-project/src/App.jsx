@@ -1,5 +1,6 @@
-import ReducerBasics from "./09-useReducer/01-useReducer";
+import LowerState from "./10-performance/01-lower-state/Index";
 import "./App.css";
+// import ReducerBasics from "./09-useReducer/01-useReducer";
 // import FetchData from "./07-customHooks/02-fetch-data";
 // import Navbar from "./08-contex-api/Navbar";
 // import ToggleExample from "./07-customHooks/01-toggle";
@@ -68,7 +69,9 @@ function App() {
 
       {/* <Navbar /> */}
 
-      <ReducerBasics />
+      {/* <ReducerBasics /> */}
+
+      <LowerState />
     </div>
   );
 }
