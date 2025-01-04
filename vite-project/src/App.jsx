@@ -1,4 +1,5 @@
 import FetchData from "./07-customHooks/02-fetch-data";
+import Navbar from "./08-contex-api/Navbar";
 import "./App.css";
 // import ToggleExample from "./07-customHooks/01-toggle";
 // import UseRefBasics from "./06-useRef/01-useRef-basics";
@@ -62,7 +63,9 @@ function App() {
       {/* <UseRefBasics /> */}
 
       {/* <ToggleExample /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+
+      <Navbar />
     </div>
   );
 }
