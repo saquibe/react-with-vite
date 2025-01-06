@@ -1,5 +1,6 @@
-import LowerState from "./10-performance/01-lower-state/Index";
+import LowerState from "./10-performance/02-react-memo/Index";
 import "./App.css";
+// import LowerState from "./10-performance/01-lower-state/Index";
 // import ReducerBasics from "./09-useReducer/01-useReducer";
 // import FetchData from "./07-customHooks/02-fetch-data";
 // import Navbar from "./08-contex-api/Navbar";
@@ -71,6 +72,7 @@ function App() {
 
       {/* <ReducerBasics /> */}
 
+      {/* <LowerState /> */}
       <LowerState />
     </div>
   );
