@@ -1,15 +1,19 @@
 import { data } from "../../data.js";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import List from "./List.jsx";
 
 const LowerState = () => {
   const [people, setPeople] = useState(data);
   const [count, setCount] = useState(0);
 
-  const removePerson = (id) => {
-    const newPeople = people.filter((person) => person.id != id);
-    setPeople(newPeople);
-  };
+  const removePerson = useCallback(
+    (id) => {
+      const newPeople = people.filter((person) => person.id != id);
+      setPeople(newPeople);
+    },
+    [people]
+  );
+
   return (
     <section>
       <button
