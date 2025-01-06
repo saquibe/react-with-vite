@@ -1,10 +1,14 @@
 import { data } from "../../data.js";
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import List from "./List.jsx";
+import { slowFunction } from "./slowFunction.js";
 
 const LowerState = () => {
   const [people, setPeople] = useState(data);
   const [count, setCount] = useState(0);
+
+  const value = useMemo(() => slowFunction(), []);
+  console.log(value);
 
   const removePerson = useCallback(
     (id) => {
