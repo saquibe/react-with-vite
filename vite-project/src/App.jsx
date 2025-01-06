@@ -1,5 +1,6 @@
-import LowerState from "./10-performance/02-react-memo/Index";
+import LatestReact from "./11-performance/01-use-transition";
 import "./App.css";
+// import LowerState from "./10-performance/02-react-memo/Index";
 // import LowerState from "./10-performance/01-lower-state/Index";
 // import ReducerBasics from "./09-useReducer/01-useReducer";
 // import FetchData from "./07-customHooks/02-fetch-data";
@@ -73,7 +74,9 @@ function App() {
       {/* <ReducerBasics /> */}
 
       {/* <LowerState /> */}
-      <LowerState />
+      {/* <LowerState /> */}
+
+      <LatestReact />
     </div>
   );
 }
